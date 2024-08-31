@@ -1,0 +1,97 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #151b25;
+}
+
+.principal
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Box
+{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 2%;
+    margin: 4%;
+    border: 3px solid #212d40;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 54px 55px,
+                rgba(0, 0, 0, 0.45) 0px -12px 30px, 
+                rgba(0, 0, 0, 0.45) 0px 4px 6px,
+                rgba(0, 0, 0, 0.30) 0px 12px 13px,
+                rgba(0, 0, 0, 0.20) 0px -3px 5px;
+}
+
+h1
+{
+    font-family: "Unthinkers DEMO";
+    src: local("Unthinkers DEMO"), url(/assets/fonts/Unthinkers\ DEMO.otf);
+    letter-spacing: 5px;
+    line-height: 195%;
+    font-size: 35px;
+    background-color: transparent;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.red
+{
+    color: red;
+    background-color: transparent;
+}
+
+.white
+{
+    color: #dee2e6;
+    background-color: transparent
+}
+
+.skull
+{
+    font-family: "DOKTOR terror";
+    src: local("DOKTOR terror"), url(/assets/fonts/DOKTOR\ terror.ttf);
+    font-size: 60px;
+    color: red;
+    margin: 0px 1px;
+    background-color: transparent;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+h2
+{
+    font-family: "Stranger back in the Night";
+    src: local("Stranger back in the Night"), url(/assets/fonts/Stranger\ back\ in\ the\ Night.ttf);
+    font-size: 60px;
+    letter-spacing: 4px;
+    font-weight: 200;
+    background-color: transparent;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    color: #dee2e6;
+}
+
+.btn
+{
+    font-family: "Stranger back in the Night";
+    src: local("Stranger back in the Night"), url(/assets/fonts/Stranger\ back\ in\ the\ Night.ttf);
+    font-size: 55px;
+    background-color: red;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    letter-spacing: 4px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.btn:hover
+{
+    background-color: black;
+    color: white;
+}
