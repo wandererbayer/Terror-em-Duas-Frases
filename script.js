@@ -1,5 +1,5 @@
 
-const API_KEY = "AIzaSyB5k8QPYQmHjCyPxPxXFXCZcRTLxPVOJsE";
+const API_KEY = "insert key";
 const API_URL = "https://api.gemini.com/v1/generate";
 
 const textInput = document.getElementById("textInput");
